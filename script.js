@@ -16,8 +16,6 @@ hrs.innerHTML= time.getHours()
 min.innerHTML = time.getMinutes()
 sec.innerHTML = time.getSeconds()
 },1000)
-
-
 //setting Alarm by taking user input
 alarmNew.addEventListener('click',()=>{
 ahrs.innerHTML= prompt("Enter hours")
